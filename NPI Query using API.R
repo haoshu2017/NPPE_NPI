@@ -1,8 +1,8 @@
 ##############################################################
-## Purpose: Linking health professionals names to their NPI from API NPPES
+## Purpose: Linking health care providers' names to their NPI via API NPPES
 ## Programmer: Haoshu Duan
 ## Date: 11/3/2024
-#
+###############################################################
 
 
 ## Set-up ----
