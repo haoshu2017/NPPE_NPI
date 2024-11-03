@@ -74,7 +74,7 @@ provider_names <- data.frame(
   postal_code = c('22003', '22003', '22180')
 )
 
-# Get NPI and taxonomy 
+# Get providers' NPI and taxonomy using pmap()
 results <-pmap_dfr(list(provider_names$first_name, 
                         provider_names$last_name, 
                         provider_names$postal_code),
